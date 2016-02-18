@@ -1,0 +1,31 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "Send emails with Gmail",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/send-email.git"
+  },
+  "keywords": [
+    "Email",
+    "Gmail"
+  ],
+  "author": "SimonLab <simon@foundersandcoders.com> (https://github.com/SimonLab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/send-email/issues"
+  },
+  "homepage": "https://github.com/SimonLab/send-email#readme",
+  "dependencies": {
+    "env2": "^2.0.6",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hoek": "^3.0.4",
+    "vision": "^4.0.1"
+  }
+}
